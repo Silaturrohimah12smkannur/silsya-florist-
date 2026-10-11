@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silsya Florist | Bunga untuk Cerita Indah</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fcf9ff;
+      color: #493753;
+    }
+    header {
+      text-align: center;
+      padding: 24px 16px;
+      background: #eee3f6;
+    }
+    header h1 {
+      margin: 0;
+      color: #76528a;
+      font-family: Georgia, serif;
+      font-size: 34px;
+    }
+    header p { margin-bottom: 0; }
+    nav {
+      text-align: center;
+      padding: 14px;
+      background: #fff;
+    }
+    nav a {
+      color: #76528a;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+    .hero {
+      text-align: center;
+      padding: 55px 20px;
+      background: linear-gradient(#eee3f6, #fcf9ff);
+    }
+    .hero h2 {
+      font: 32px Georgia, serif;
+      margin: 0 0 14px;
+    }
+    .hero p { line-height: 1.7; }
+    .button {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 25px;
+      background: #76528a;
+      color: white;
+      text-decoration: none;
+      margin-top: 12px;
+    }
+    section { padding: 30px 18px; }
+    section h2 {
+      text-align: center;
+      font: 27px Georgia, serif;
+      color: #76528a;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .product {
+      background: white;
+      border-radius: 14px;
+      padding: 12px;
+      text-align: center;
+      box-shadow: 0 3px 15px #76528a12;
+    }
+    .product img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .product h3 { font-size: 16px; }
+    .price { color: #76528a; font-weight: bold; }
+    .order {
+      text-align: center;
+      background: #eee3f6;
+      border-radius: 20px;
+      margin: 20px 16px;
+      padding: 24px 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Silsya Florist</h1>
+    <p>Bunga indah, untuk cerita yang berharga.</p>
+  </header>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#koleksi">Koleksi</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <div class="hero" id="beranda">
+    <h2>Flowers for Your Special Moments</h2>
+    <p>Temukan buket cantik untuk hadiah,
+      kasih sayang, dan momen istimewa.</p>
+    <a class="button" href="#koleksi">Lihat Koleksi</a>
+  </div>
+
+  <section id="koleksi">
+    <h2>Koleksi Bunga</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=500&q=80" alt="Buket bunga">
+        <h3>Buket Pastel</h3>
+        <p class="price">Rp75.000</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1494972308805-463bc619d34e?auto=format&fit=crop&w=500&q=80" alt="Bunga mawar">
+        <h3>Buket Romantis</h3>
+        <p class="price">Rp100.000</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=80" alt="Rangkaian bunga">
+        <h3>Buket Lavender</h3>
+        <p class="price">Rp85.000</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=500&q=80" alt="Buket bunga hadiah">
+        <h3>Buket Spesial</h3>
+        <p class="price">Rp120.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="order" id="kontak">
+    <h2>Pesan Buket Impianmu</h2>
+    <p>Hubungi kami untuk memesan bunga
+      bagi orang-orang tersayang.</p>
+    <a class="button"
+       href="https://wa.me/62NOMORWA">
+       Pesan via WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    © 2026 Silsya Florist · Made with love
+  </footer>
+</body>
+</html>
